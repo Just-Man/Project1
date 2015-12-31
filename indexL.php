@@ -1,11 +1,9 @@
 <!--
-/**
- * Created by PhpStorm.
- * User: just
- * Date: 30.12.15
- * Time: 07:46
- */
- -->
+Created by PhpStorm.
+User: just
+Date: 31.12.15
+Time: 09:05
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +15,7 @@
 </head>
 <body>
     <?php require_once "resource/php/header.php";?>
-    <main>
-        <?php require_once "resource/php/welcome.php";?>
-    </main>
+<main>
+    <?php require_once "resource/php/logged.php";?>
+</main>
 </body>
