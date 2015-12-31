@@ -88,18 +88,5 @@ Time: 11:05
             <button type="submit">Register</button>
         </form>
     </div>
-    <div id="suggest">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+    <?php require_once "suggest.php"?>
 </section>
