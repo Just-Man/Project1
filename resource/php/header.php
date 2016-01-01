@@ -21,7 +21,7 @@
             <label for="pass">Password</label><br>
              <input id="pass" type="password" name="pass">
             </span>
-            <span><button type="submit"><a href="indexL.php">Go</a></button> </span>
+            <span><a href="indexL.php">Go</a></span>
         </form>
         <ul id="fullNav" class="buttons">
             <li><img src="resource/img/user_icon_small.png"></li>
