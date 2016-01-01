@@ -62,5 +62,6 @@ Time: 07:13
             <option value="city20">city20</option>
         </select>
         <input name="searchText" placeholder="search" type="search">
+        <button name="searchButton" type="submit"><a href="indexS.php">Search</a></button>
     </form>
 </section>
