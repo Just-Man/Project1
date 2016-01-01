@@ -7,8 +7,7 @@ Time: 07:13
 <section id="search">
     <h2>Search</h2>
     <form action="" method="post" id="searchForm" name="search">
-        <p>
-            <label for="age">From </label>
+            <label for="from">Age from </label>
             <select id="from">
                 <option value="21" name="from">21</option>
                 <option value="22" name="from">22</option>
@@ -34,14 +33,13 @@ Time: 07:13
                 <option value="49" name="to">49</option>
                 <option value="50" name="to">50</option>
             </select>
-        </p>
         <label for="gender">Gender</label>
         <select id="gender">
             <option name="gender" value="male">Male</option>
             <option name="gender" value="female">Female</option>
             <option name="gender" value="both">Both</option>
         </select>
-        <label for="city"></label><select name="city" id="city">
+        <label for="city">City</label><select name="city" id="city">
             <option value="city1">city1</option>
             <option value="city2">city2</option>
             <option value="city3">city3</option>

@@ -110,6 +110,8 @@ ul#fullNav{
 main{
     position: relative;
     top: 120px;
+    height: 771px;
+    overflow-y: auto;
     background: #F0DFE6;
     padding: 50px;
 }
@@ -230,4 +232,37 @@ article img{
     position: absolute;
     top: 46%;
     right: 10px;
+}
+
+#logged > #suggest > h2{
+    display: none;
+}
+
+#logged > #suggest{
+    height: 340px;
+    overflow: hidden;
+}
+
+#logged > #search > h2{
+    display: none;
+}
+
+#searchForm{
+    padding: 20px;
+    text-align: center;
+}
+
+#searchForm label{
+    margin: 0 10px 0 20px;
+}
+
+#searchForm input, select{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#searchForm label:nth-child(3){
+    margin-left: 10px;
 }
