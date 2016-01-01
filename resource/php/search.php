@@ -7,6 +7,7 @@ Time: 07:13
 <section id="search">
     <h2>Search</h2>
     <form action="" method="post" id="searchForm" name="search">
+        <span>
             <label for="from">Age from </label>
             <select id="from">
                 <option value="21" name="from">21</option>
@@ -33,13 +34,18 @@ Time: 07:13
                 <option value="49" name="to">49</option>
                 <option value="50" name="to">50</option>
             </select>
-        <label for="gender">Gender</label>
-        <select id="gender">
-            <option name="gender" value="male">Male</option>
-            <option name="gender" value="female">Female</option>
-            <option name="gender" value="both">Both</option>
-        </select>
-        <label for="city">City</label><select name="city" id="city">
+        </span>
+        <span>
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option name="gender" value="male">Male</option>
+                <option name="gender" value="female">Female</option>
+                <option name="gender" value="both">Both</option>
+            </select>
+        </span>
+        <span>
+        <label for="city">City</label>
+        <select name="city" id="city">
             <option value="city1">city1</option>
             <option value="city2">city2</option>
             <option value="city3">city3</option>
@@ -61,7 +67,10 @@ Time: 07:13
             <option value="city19">city19</option>
             <option value="city20">city20</option>
         </select>
+        </span>
+        <span>
         <input name="searchText" placeholder="search" type="search">
         <button name="searchButton" type="submit"><a href="indexS.php">Search</a></button>
+        </span>
     </form>
 </section>
