@@ -70,7 +70,7 @@ Time: 07:13
         </span>
         <span>
         <input name="searchText" placeholder="search" type="search">
-        <button name="searchButton" type="submit"><a href="indexS.php">Search</a></button>
+        <a href="indexS.php">Search</a>
         </span>
     </form>
 </section>
