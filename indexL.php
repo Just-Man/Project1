@@ -15,7 +15,7 @@ Time: 09:05
 </head>
 <body>
     <?php require_once "resource/php/header.php";?>
-<main>
+<main class="clearFix">
     <?php require_once "resource/php/logged.php";?>
 </main>
 </body>

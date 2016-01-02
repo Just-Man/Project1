@@ -1,8 +1,8 @@
 <!--
 Created by PhpStorm.
 User: just
-Date: 01.01.16
-Time: 09:46
+Date: 02.01.16
+Time: 06:47
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +16,7 @@ Time: 09:46
 <body>
     <?php require_once "resource/php/header.php";?>
 <main class="clearFix">
-    <?php require_once "resource/php/searchResult.php";?>
+
+    <?php require_once "resource/php/profileAbout.php";?>
 </main>
 </body>

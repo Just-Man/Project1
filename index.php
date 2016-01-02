@@ -17,7 +17,7 @@
 </head>
 <body>
     <?php require_once "resource/php/header.php";?>
-    <main>
+    <main class="clearFix">
         <?php require_once "resource/php/welcome.php";?>
     </main>
 </body>
