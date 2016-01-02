@@ -118,7 +118,8 @@ ul#fullNav{
 main{
     position: relative;
     top: 120px;
-    padding: 50px;
+    padding: 30px;
+    background: #F0DFE6;
 }
 
 main > section{
@@ -128,7 +129,7 @@ main > section{
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
-    background: #F0DFE6;
+    background: #f9cb9c;
 }
 
 main > section > h2{
@@ -277,13 +278,28 @@ article img{
     padding: 5px;
 }
 
-#searchForm label:nth-child(3){
-    margin-left: 10px;
+#searchForm select{
+    -webkit-appearance: none;
+    background: linear-gradient(#888, #fff 60%,#484848);
+    box-shadow: 1px 1px 15px #000;
+
+}
+
+#searchForm span:last-child{
+    margin-left: 20px;
 }
 
 #searchResult > #search{
     display: none;
 }
+
+#searchResult #suggest > h2{
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px 50px 0 0;
+}
+
+
 
 @media all and (max-width: 1024px){
     header > h1{
