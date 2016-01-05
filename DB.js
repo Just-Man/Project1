@@ -28,3 +28,5 @@ var user=
     },
     memberGroup: '0/1'
 };
+
+/*тест*/
