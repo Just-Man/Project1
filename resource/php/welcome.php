@@ -5,12 +5,13 @@ Date: 30.12.15
 Time: 11:05
 --> 
 <section class="clearFix">
-    <h2>
-        Welcome
-    </h2>
-    <?php require_once "story.php" ?>
+    <div>
+        <img id="background" src="resource/img/happy-couple.jpg" alt="">
+        <a href="#registration"><button class="home-buttons" id="home-button1">Join for free!</button></a>
+        <a href="#suggest"><button class="home-buttons" id="home-button2">View our latest profiles</button></a>
+    </div>
     <div id="registration">
-        <h2>Registration<img src="resource/img/arrow_down.png"></h2>
+        <h2>Registration</h2>
         <form action="" method="post" name="registration" id="regForm">
             <span>
                 <label for="regUserName">User name</label>
@@ -34,7 +35,7 @@ Time: 11:05
                     <input id="rePass" type="password">
                 <br>
             </span>
-            <button type="submit">Register</button>
+            <button id="submit-registration" type="submit">Register</button>
         </form>
     </div>
     <?php require_once "suggest.php"?>

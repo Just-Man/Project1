@@ -13,6 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href="resource/css/stylesheet.css" rel='stylesheet' type='text/css'>
     <link href="resource/css/reset.css" rel='stylesheet' type='text/css'>
+    <link rel="icon" href="resource/img/favicon.ico" type="image/x-icon" />
     <title>Web Encounters</title>
 </head>
 <body>

@@ -5,21 +5,23 @@
  * Time: 18:35
  -->
 
+
 <header class="clearFix">
-    <img id="logo" src="resource/img/Logo_150x150.png" alt="Web Encounters">
-    <h1>Web Encounters</h1>
+    <img id="logo" src="resource/img/logo-heart.png" alt="Web Encounters">
+    <div>
+        <h1>Web Encounters</h1>
+        <span id="subtitle"><p>The #1 dating site of 2016</p></span>
+    </div>
         <div id="lang" class="buttons">
             <button>Bg</button>
             <button>En</button>
         </div>
         <form action="" method="post" id="login" class="buttons">
             <span>
-            <label for="userN">User name</label><br>
-            <input id="userN" type="text" name="userN">
+            <input id="userN" type="text" name="userN" placeholder="Username">
             </span>
             <span>
-            <label for="pass">Password</label><br>
-             <input id="pass" type="password" name="pass">
+             <input id="pass" type="password" name="pass" placeholder="Password">
             </span>
             <span><a href="indexL.php">Go</a></span>
         </form>
