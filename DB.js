@@ -28,5 +28,5 @@ var user=
     },
     memberGroup: '0/1'
 };
-
+//testStanislav
 /*тест*/
