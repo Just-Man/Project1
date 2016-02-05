@@ -123,7 +123,7 @@ ul#fullNav{
 main{
     position: relative;
     top: 120px;
-    background: #fadffd;
+    background: #fceffd;
 
 }
 
@@ -215,10 +215,16 @@ section h2{
     text-align: right;
 }
 
+#registration input {
+    width: 150px;
+    height: 30px;
+}
+
 #registration button{
     width: 150px;
     height: 35px;
-    border: #c63a7d solid 2px;
+    border: #c63a7d solid 3px;
+    border-radius: 10px;
     display: block;
     margin: 0 auto 20px;
     background-color: #fadffd;
@@ -247,7 +253,7 @@ section h2{
     text-align: center;
 }
 
-#suggContent span{
+#suggContent img{
     display: inline-block;
     margin: 20px;
     width: 200px;
