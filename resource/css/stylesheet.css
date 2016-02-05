@@ -328,6 +328,47 @@ section h2{
     border-radius: 50px 50px 0 0;
 }
 
+#stories {
+    width:90%;
+    height: auto;
+    clear: both;
+}
+
+#stories h3 {
+    margin-top: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.storyPics {
+    display: inline-block;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    float: left;
+}
+
+.more{
+    float: right;
+
+}
+
+
+.story {
+    margin: 4%;
+    width: 40%;
+    float: left;
+
+}
+
+.story div {
+    margin-top: 15px;
+}
+
 #profileNav{
     display: flex;
     justify-content: space-around;

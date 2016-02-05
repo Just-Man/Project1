@@ -17,5 +17,6 @@ Time: 09:05
     <?php require_once "resource/php/header.php";?>
 <main class="clearFix">
     <?php require_once "resource/php/logged.php";?>
+    <?php require_once "resource/php/stories.php";?>
 </main>
 </body>

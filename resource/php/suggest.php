@@ -11,14 +11,6 @@
             <img class="profilePics" src="resource/img/photos/bean2.jpg">
             <img class="profilePics" src="resource/img/photos/bean3.jpg">
             <img class="profilePics" src="resource/img/photos/bean4.jpg">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
         </div>
         <img id="suggRight" src="resource/img/right_arrow.png">
     </section>
