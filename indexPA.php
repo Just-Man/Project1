@@ -17,6 +17,14 @@ Time: 06:47
     <?php require_once "resource/php/header.php";?>
 <main class="clearFix">
 
-    <?php require_once "resource/php/profileAbout.php";?>
+    <?php require_once "resource/php/profileMenu.php";?>
+    <div id="personalInfo">
+        <h3>About Me</h3>
+                <?php require_once "resource/php/profileAboutTop.php";?>
+    </div>
+     <div id="personalInterests">
+         <h3>Looking for</h3>
+                <?php require_once "resource/php/profileAbout.php";?>
+     </div>
 </main>
 </body>
