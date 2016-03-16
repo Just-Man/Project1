@@ -1,11 +1,5 @@
-<!--
-/**
- * Created by PhpStorm.
- * User: just
- * Date: 30.12.15
- * Time: 07:46
- */
- -->
+<?php
+require_once 'config.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,11 +8,18 @@
     <link href="resource/css/stylesheet.css" rel='stylesheet' type='text/css'>
     <link href="resource/css/reset.css" rel='stylesheet' type='text/css'>
     <link rel="icon" href="resource/img/favicon.ico" type="image/x-icon" />
+    <link href="resource/css/font-awesome.min.css">
     <title>Web Encounters</title>
 </head>
 <body>
-    <?php require_once "resource/php/header.php";?>
+    <?php require_once "resource/php/layouts/header.php";?>
     <main class="clearFix">
-        <?php require_once "resource/php/welcome.php";?>
+        <?php
+        if ($_SESSION['username']){
+            require_once "resource/php/layouts/logged.php";
+            require_once "resource/php/layouts/stories.php";
+        } else {
+            require_once "resource/php/layouts/welcome.php";
+        }?>
     </main>
 </body>

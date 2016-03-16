@@ -11,6 +11,7 @@ Time: 09:46
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href="resource/css/stylesheet.css" rel='stylesheet' type='text/css'>
     <link href="resource/css/reset.css" rel='stylesheet' type='text/css'>
+    <link href="resource/css/font-awesome.min.css">
     <title>Web Encounters</title>
 </head>
 <body>

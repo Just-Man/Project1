@@ -1,8 +1,8 @@
 <section id="profile">
-<!--    --><?php
-//        require_once "profileMenu.php";
-//        require_once "profileAboutTop.php";
-//    ?>
+    <div id="personalInfo">
+        <h3>About Me</h3>
+        <?php require_once "resource/php/layouts/profileAboutTop.php";?>
+    </div>
     <div id="profileContent">
 <!--        <div>-->
 <!--            <h3>About Me</h3>-->

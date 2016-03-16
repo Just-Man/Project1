@@ -35,7 +35,7 @@ Time: 06:27
     <div id="quickView">
         <img src="resource/img/arrow_up.png">
         <div id="quickViewContent">
-            <?php require_once "profileAboutTop.php"?>
+            <?php require_once "profileAboutTop.php" ?>
         </div>
     </div>
 </section>
