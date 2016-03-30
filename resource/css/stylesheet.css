@@ -10,6 +10,7 @@
 }
 
 body{
+    background: #fceffd;
     display: block;
     width: 100%;
     height: 100%;
@@ -89,9 +90,10 @@ header h1{
     padding: 10px 0;
 }
 
-input{
+.input{
     display: inherit;
     width:100px;
+    color: #000;
     border: 1px solid #000;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -123,7 +125,7 @@ ul#fullNav{
 .hello{
     position: absolute;
     right: 75px;
-    top: 100px;
+    top: 80px;
 }
 
 main{
@@ -170,6 +172,7 @@ section h2{
     height: 125px;
     width: 125px;
     border-radius: 125px;
+    color: #000;
     box-shadow: 5px 5px 3px #888888;
     text-decoration: none;
     font-size: 1rem;
@@ -229,6 +232,7 @@ section h2{
 #registration #submit-registration{
     width: 150px;
     height: 35px;
+    color: #000;
     border: #c63a7d solid 3px;
     border-radius: 10px;
     display: block;
@@ -311,6 +315,8 @@ section h2{
     -moz-border-radius: 10px;
     border-radius: 10px;
     padding: 5px;
+    background: #FFF;
+    color: #000;
 }
 
 #searchForm select{
@@ -482,6 +488,38 @@ h3 {
     margin: 5px auto 5px;
     width: 100px;
     height: 100px;
+}
+
+.profilePic{
+    display: inline-block;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.edit{
+    margin: 20px;
+}
+
+.edit label{
+    display: block;
+}
+
+.edit textarea{
+    background: #fff;
+    border: 1px solid #000;
+}
+
+#upProfilePic{
+    display:  inline-block;
+}
+
+#addInfo{
+    display:  inline-block;
 }
 
 

@@ -21,15 +21,23 @@ Time: 06:47
 
     <?php
     require_once "resource/php/layouts/profileMenu.php";
-    if ($_SERVER['QUERY_STRING']) {
-        $page = $_SERVER['QUERY_STRING'];
-        $path = 'resource/php/layouts/' . $page . '.php';
-        require_once $path;
-    } else {
-        require_once 'resource/php/layouts/about.php';
+//var_dump($_SESSION);
+    $pages = array_keys($_GET);
+    $user = $pages[0];
+    $len = count($pages);
+    if ($len > 1) {
+        $page = 'resource/php/layouts/'.$pages[1] . '.php';
     }
-    require_once 'autoload.php';
-    $user = new Users();
+    if ($user == $_SESSION['username']) {
+        if (!$_SESSION['user_about']){
+            $page = 'resource/php/layouts/editAbout.php';
+        } else {
+            $page = 'resource/php/layouts/about.php';
+        }
+        require_once $page;
+    } else {
+        require_once $page;
+    }
     ?>
 </main>
 </body>

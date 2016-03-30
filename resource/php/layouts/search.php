@@ -1,3 +1,6 @@
+<?php
+var_dump($_POST, $_GET)
+?>
 <!--
 Created by PhpStorm.
 User: just
@@ -6,10 +9,10 @@ Time: 07:13
 -->
 <section id="search">
     <h2>Search</h2>
-    <form action="" method="post" id="searchForm" name="search">
+    <form action="" method="get" id="searchForm" name="search">
         <span>
             <label for="from">Age from </label>
-            <select id="from">
+            <select id="from" name="from" class="edit">
                 <option value="21" name="from">21</option>
                 <option value="22" name="from">22</option>
                 <option value="23" name="from">23</option>
@@ -22,7 +25,7 @@ Time: 07:13
                 <option value="30" name="from">30</option>
             </select>
             <label for="to">to</label>
-            <select name="" id="to">
+            <select name="to" id="to">
                 <option value="41" name="to">41</option>
                 <option value="42" name="to">42</option>
                 <option value="43" name="to">43</option>
@@ -70,7 +73,7 @@ Time: 07:13
         </span>
         <span>
         <input name="searchText" placeholder="search" type="search">
-        <a href="search.php">Search</a>
+        <button class="edit" type="submit">Search</button>
         </span>
     </form>
 </section>

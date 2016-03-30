@@ -15,11 +15,12 @@ require_once 'config.php'?>
     <?php require_once "resource/php/layouts/header.php";?>
     <main class="clearFix">
         <?php
-        if ($_SESSION['username']){
+        if ($_SESSION){
             require_once "resource/php/layouts/logged.php";
             require_once "resource/php/layouts/stories.php";
         } else {
             require_once "resource/php/layouts/welcome.php";
-        }?>
+        }
+        ?>
     </main>
 </body>

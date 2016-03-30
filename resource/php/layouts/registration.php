@@ -4,7 +4,7 @@ $user = new Users();
 if (!empty($_POST['registration'])){
     if ($user ->add($_POST)) {
         $_SESSION['username'] = $_POST['username'];
-        header('Location: profile.php');
+        header('Location: profile.php?' . $_POST['username']);
     }
 }
 
@@ -14,25 +14,25 @@ if (!empty($_POST['registration'])){
     <form action="" method="post" name="registration" id="regForm">
             <span>
                 <label for="regUserName">User name</label>
-                    <input id="regUserName" type="text" name="username">
+                    <input id="regUserName" class="input" type="text" name="username">
                 <br>
                 <label for="fName">First name</label>
-                    <input id="fName" type="text" name="fName">
+                    <input id="fName" class="input" type="text" name="fName">
                 <br>
 
                 <label for="lName">Last name</label>
-                    <input id="lName" type="text" name="lName">
+                    <input id="lName" class="input" type="text" name="lName">
                 <br>
             </span>
             <span>
                 <label for="mail">E-mail</label>
-                    <input id="mail" type="email" name="mail">
+                    <input id="mail" class="input" type="email" name="mail">
                 <br>
                 <label for="regPass">Password</label>
-                    <input id="regPass" type="password" name="regPass">
+                    <input id="regPass" class="input" type="password" name="regPass">
                 <br>
                 <label for="rePass">Repeat password</label>
-                    <input id="rePass" type="password" name="rePass">
+                    <input id="rePass" class="input" type="password" name="rePass">
                 <br>
             </span>
         <input id="submit-registration" name="registration" value="Register" type="submit">

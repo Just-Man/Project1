@@ -10,7 +10,7 @@ interface Database
 {
     public function add(array $data);
 
-    public function select(array $data);
+    public function select(array $data,bool $number);
 
     public function update(array $data);
 

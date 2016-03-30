@@ -22,7 +22,7 @@
 //        var_dump($_POST);
 //        echo 'ses';
 //        var_dump($_SESSION);
-        if (!$_SESSION['username']) {
+        if (!$_SESSION) {
             require_once 'resource/php/layouts/login.php';
         } else {
             require_once 'resource/php/layouts/menu_logged.php';
